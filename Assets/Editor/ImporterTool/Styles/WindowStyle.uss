@@ -1,0 +1,24 @@
+@import "ImportBlock.uss";
+@import "SettingsPage.uss";
+
+.window {
+    background-color: #383838;
+    
+    --base-bg-color: #383838;
+    --menu-container-color: rgba(40, 40, 40, 0.72);
+    --menu-container-border-color: #292929;
+    --base-menu-item-color: #252525;
+    --base-border-color: #e0e0e0;
+    --settings-category-font-color: #9a9a9a;
+    --toggle-inactive: #505050;
+    --toggle-active: #7bff7b;
+}
+
+.activate {
+    background-color: #4c4c4c;
+}
+
+.deactivate {
+    background-color: #3d3d3d;
+    color: #494949;
+}
